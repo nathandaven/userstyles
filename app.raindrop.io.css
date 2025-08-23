@@ -1,0 +1,6 @@
+@-moz-document url-prefix("https://app.raindrop.io")
+{
+  .upgrade-R9fx {
+    display: none !important;
+  }
+}
