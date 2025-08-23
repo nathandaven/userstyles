@@ -7,6 +7,7 @@
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/chatgpt.com.user.css
+@match        *://chatgpt.com/*
 ==/UserStyle== */
 
 @-st-document domain("chatgpt.com") {
