@@ -2,7 +2,7 @@
 @name         Startpage Custom Style
 @description  Hide navigation and other elements on Startpage
 @author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
-@version      1.0.5
+@version      1.0.6
 @license      MIT
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
@@ -11,7 +11,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("startpage.com") {
-  nav,
   footer,
   .w-gl-attribution,
   .feedback-button-container,
@@ -25,52 +24,58 @@
     opacity: 0 !important;
   }
 
-  header {
-    border-bottom: none !important;
-    background: none !important;
-    margin-top: 0px !important;
-    padding-top: 12px !important;
-    height: 4px !important;
-    overflow: hidden !important;
+  @media (max-width: 990px) {
+    .mobile-nav {
+      display: none !important;
+    }
   }
 
-  .search-form-container {
-    box-shadow: none !important;
-  }
+  @media (min-width: 990px) {
+    nav {
+      display: none !important;
+    }
 
-  header:hover {
-    height: 84px !important;
-  }
+    header {
+      border-bottom: none !important;
+      background: none !important;
+      margin-top: 0px !important;
+      padding-top: 12px !important;
+      height: 4px !important;
+      overflow: hidden !important;
+    }
 
-  header:hover .search-form-container {
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1) !important;
-  }
+    [style="margin-bottom: 10px;"] {
+      display: none !important;
+    }
 
-  main {
-    padding-top: 12px !important;
-  }
+    .search-form-container {
+      box-shadow: none !important;
+    }
 
-  #main {
-    max-width: 60vw !important;
-  }
+    header:hover {
+      height: 84px !important;
+    }
 
-  #sidebar {
-    max-width: 25vw !important;
-  }
+    header:hover .search-form-container {
+      box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1) !important;
+    }
 
-  /*
-* {
-    font-family: "SF Mono", monospace !important;
-} */
+    main {
+      padding-top: 12px !important;
+    }
 
-  [style="margin-bottom: 10px;"] {
-    display: none !important;
+    #main {
+      max-width: 60vw !important;
+    }
+
+    #sidebar {
+      max-width: 25vw !important;
+    }
   }
 }
 
 /* Safari */
 @supports (hanging-punctuation: first) {
-  nav,
   footer,
   .w-gl-attribution,
   .feedback-button-container,
@@ -84,45 +89,52 @@
     opacity: 0 !important;
   }
 
-  header {
-    border-bottom: none !important;
-    background: none !important;
-    margin-top: 0px !important;
-    padding-top: 12px !important;
-    height: 4px !important;
-    overflow: hidden !important;
+  @media (max-width: 990px) {
+    .mobile-nav {
+      display: none !important;
+    }
   }
 
-  .search-form-container {
-    box-shadow: none !important;
-  }
+  @media (min-width: 990px) {
+    nav {
+      display: none !important;
+    }
 
-  header:hover {
-    height: 84px !important;
-  }
+    header {
+      border-bottom: none !important;
+      background: none !important;
+      margin-top: 0px !important;
+      padding-top: 12px !important;
+      height: 4px !important;
+      overflow: hidden !important;
+    }
 
-  header:hover .search-form-container {
-    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1) !important;
-  }
+    [style="margin-bottom: 10px;"] {
+      display: none !important;
+    }
 
-  main {
-    padding-top: 12px !important;
-  }
+    .search-form-container {
+      box-shadow: none !important;
+    }
 
-  #main {
-    max-width: 60vw !important;
-  }
+    header:hover {
+      height: 84px !important;
+    }
 
-  #sidebar {
-    max-width: 25vw !important;
-  }
+    header:hover .search-form-container {
+      box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1) !important;
+    }
 
-  /*
-* {
-    font-family: "SF Mono", monospace !important;
-} */
+    main {
+      padding-top: 12px !important;
+    }
 
-  [style="margin-bottom: 10px;"] {
-    display: none !important;
+    #main {
+      max-width: 60vw !important;
+    }
+
+    #sidebar {
+      max-width: 25vw !important;
+    }
   }
 }
