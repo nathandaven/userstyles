@@ -4,10 +4,9 @@
 @author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
 @version      1.0.0
 @license      MIT
-@match        https://app.raindrop.io/*
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
-@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/app.raindrop.io.user.css
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/app.raindrop.io.user.css
 ==/UserStyle== */
 
 @-st-document domain("app.raindrop.io") {

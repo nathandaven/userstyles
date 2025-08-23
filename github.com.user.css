@@ -4,10 +4,9 @@
 @author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
 @version      1.0.0
 @license      MIT
-@match        https://github.com/*
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
-@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/github.com.user.css
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/github.com.user.css
 ==/UserStyle== */
 
 @-st-document domain("github.com") {
