@@ -10,7 +10,7 @@
 @match        *://*.youtube.com/*
 ==/UserStyle== */
 
-@-st-document domain("youtube.com") {
+@-moz-document domain("youtube.com") {
   * {
     --ytd-mini-guide-width: 12px;
   }

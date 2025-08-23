@@ -10,7 +10,7 @@
 @match        *://*.github.com/*
 ==/UserStyle== */
 
-@-st-document domain("github.com") {
+@-moz-document domain("github.com") {
   * {
     font-family: "SF Mono", monospace !important;
   }

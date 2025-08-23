@@ -10,7 +10,7 @@
 @match        *://*.raindrop.io/*
 ==/UserStyle== */
 
-@-st-document domain("app.raindrop.io") {
+@-moz-document domain("app.raindrop.io") {
   .upgrade-R9fx {
     display: none !important;
   }

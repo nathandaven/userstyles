@@ -10,7 +10,7 @@
 @match        *://*.chatgpt.com/*
 ==/UserStyle== */
 
-@-st-document domain("chatgpt.com") {
+@-moz-document domain("chatgpt.com") {
   .text-token-text-secondary {
     display: none !important;
   }
