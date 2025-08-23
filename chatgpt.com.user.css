@@ -10,6 +10,8 @@
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/chatgpt.com.user.css
 ==/UserStyle== */
 
-.text-token-text-secondary {
-  display: none !important;
+@-st-document domain("chatgpt.com") {
+  .text-token-text-secondary {
+    display: none !important;
+  }
 }

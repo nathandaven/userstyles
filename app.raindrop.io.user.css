@@ -10,6 +10,8 @@
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/app.raindrop.io.user.css
 ==/UserStyle== */
 
-.upgrade-R9fx {
-  display: none !important;
+@-st-document domain("app.raindrop.io") {
+  .upgrade-R9fx {
+    display: none !important;
+  }
 }

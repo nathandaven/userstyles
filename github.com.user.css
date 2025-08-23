@@ -10,6 +10,8 @@
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/github.com.user.css
 ==/UserStyle== */
 
-* {
-  font-family: "SF Mono", monospace !important;
+@-st-document domain("github.com") {
+  * {
+    font-family: "SF Mono", monospace !important;
+  }
 }
