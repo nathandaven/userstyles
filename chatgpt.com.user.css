@@ -2,12 +2,12 @@
 @name         ChatGPT Custom Style
 @description  Hide secondary text tokens on ChatGPT
 @author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
-@version      1.0.2
+@version      1.0.4
 @license      MIT
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/chatgpt.com.user.css
-@match        *://chatgpt.com/*
+@match        *://*.chatgpt.com/*
 ==/UserStyle== */
 
 @-st-document domain("chatgpt.com") {
