@@ -10,7 +10,7 @@
 @match        *://*.startpage.com/*
 ==/UserStyle== */
 
-@-moz-document domain ("startpage.com") {
+@-moz-document domain("startpage.com") {
   nav,
   footer,
   .w-gl-attribution,
