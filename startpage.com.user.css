@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name         Startpage Custom Style
+@description  Hide navigation and other elements on Startpage
+@author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
+@version      1.0.0
+@license      MIT
+@match        https://www.startpage.com/*
+@homepageURL  https://github.com/nathandaven/userstyles
+@namespace    github.com/nathandaven/userstyles
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/youtube.user.css
+==/UserStyle== */
+
+nav,
+footer,
+.w-gl-attribution,
+.feedback-button-container,
+#gcsa-top,
+#gcsa-bottom,
+.blog-menu-button {
+  display: none !important;
+}
+
+.home-btn-logo {
+  opacity: 0 !important;
+}
+
+header {
+  border-bottom: none !important;
+  background: none !important;
+  margin-top: 0px !important;
+  padding-top: 12px !important;
+  height: 4px !important;
+  overflow: hidden !important;
+}
+
+.search-form-container {
+  box-shadow: none !important;
+}
+
+header:hover {
+  height: 84px !important;
+}
+
+header:hover .search-form-container {
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+main {
+  padding-top: 12px !important;
+}
+
+#main {
+  max-width: 60vw !important;
+}
+
+#sidebar {
+  max-width: 25vw !important;
+}
+
+/*
+* {
+    font-family: "SF Mono", monospace !important;
+} */
+
+[style="margin-bottom: 10px;"] {
+  display: none !important;
+}

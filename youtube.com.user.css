@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name         YouTube Custom Style
+@description  Custom YouTube UI tweaks
+@author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
+@version      1.0.0
+@license      MIT
+@match        https://www.youtube.com/*
+@homepageURL  https://github.com/nathandaven/userstyles
+@namespace    github.com/nathandaven/userstyles
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/youtube.com.user.css
+==/UserStyle== */
+
+* {
+  --ytd-mini-guide-width: 12px;
+}
+
+[aria-label="Shorts"],
+ytd-mini-guide-renderer {
+  display: none !important;
+}
+
+#page-manager {
+  /* margin-left: 12px; */
+  /* margin-right: -6px; */
+}
+
+#frosted-glass {
+  height: 52px !important;
+}
+
+#chips-wrapper,
+#chips {
+  display: none !important;
+}
+
+#header.ytd-rich-grid-renderer {
+  display: none !important;
+}
+
+#subscribe-button {
+  max-width: 66px !important;
+}

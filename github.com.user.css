@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name         GitHub Custom Style
+@description  Use SF Mono font on GitHub
+@author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
+@version      1.0.0
+@license      MIT
+@match        https://github.com/*
+@homepageURL  https://github.com/nathandaven/userstyles
+@namespace    github.com/nathandaven/userstyles
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/github.com.user.css
+==/UserStyle== */
+
+* {
+  font-family: "SF Mono", monospace !important;
+}

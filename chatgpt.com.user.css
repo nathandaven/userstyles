@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name         ChatGPT Custom Style
+@description  Hide secondary text tokens on ChatGPT
+@author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
+@version      1.0.0
+@license      MIT
+@match        https://chatgpt.com/*
+@homepageURL  https://github.com/nathandaven/userstyles
+@namespace    github.com/nathandaven/userstyles
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/main/chatgpt.com.user.css
+==/UserStyle== */
+
+.text-token-text-secondary {
+  display: none !important;
+}
