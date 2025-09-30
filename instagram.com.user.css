@@ -12,7 +12,7 @@
 @-moz-document domain("instagram.com") {
   * {
     --ig-primary-background: transparent !important;
-    --border-top-color: transparent !important;
+    --ig-elevated-separator: transparent !important;
   }
 }
 
