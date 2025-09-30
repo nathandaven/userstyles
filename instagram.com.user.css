@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name         Instagram Custom Style
+@description  Custom Instagram UI tweaks
+@author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
+@version      1.0.5
+@license      MIT
+@homepageURL  https://github.com/nathandaven/userstyles
+@namespace    github.com/nathandaven/userstyles
+@updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/instagram.com.user.css
+@match        *://instagram.com/*
+==/UserStyle== */
+@-moz-document domain("instagram.com") {
+  * {
+    --ig-primary-background: transparent !important;
+    --border-top-color: transparent !important;
+  }
+}
+
+/* Safari compat */
+@supports (hanging-punctuation: first) {
+  * {
+    --ig-primary-background: transparent !important;
+    --border-top-color: transparent !important;
+  }
+}
