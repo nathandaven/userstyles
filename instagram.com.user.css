@@ -2,7 +2,7 @@
 @name         Instagram Custom Style
 @description  Custom Instagram UI tweaks
 @author       Nathan Davenport <dev@nathandaven.com> (https://nathandaven.com)
-@version      1.0.8
+@version      1.0.9
 @license      MIT
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
@@ -21,5 +21,11 @@
   * {
     --ig-primary-background: transparent !important;
     --ig-elevated-separator: rgba(0, 0, 0, 0) !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    * {
+      --ig-elevated-separator: rgba(255, 255, 255, 0) !important;
+    }
   }
 }
