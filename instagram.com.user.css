@@ -7,7 +7,7 @@
 @homepageURL  https://github.com/nathandaven/userstyles
 @namespace    github.com/nathandaven/userstyles
 @updateURL    https://raw.githubusercontent.com/nathandaven/userstyles/refs/heads/main/instagram.com.user.css
-@match        *://instagram.com/*
+@match        *://*.instagram.com/*
 ==/UserStyle== */
 @-moz-document domain("instagram.com") {
   * {
@@ -20,6 +20,6 @@
 @supports (hanging-punctuation: first) {
   * {
     --ig-primary-background: transparent !important;
-    --border-top-color: transparent !important;
+    --ig-elevated-separator: transparent !important;
   }
 }
